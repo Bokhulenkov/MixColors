@@ -12,6 +12,10 @@ final class ViewController: UIViewController {
     
     // MARK: - Private Properties
     
+    private enum ViewID: String {
+        case left, right
+    }
+    
     private let nameApp: UILabel = {
         let label = UILabel()
         label.font = .systemFont(ofSize: 24, weight: .bold)
